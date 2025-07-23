@@ -1,3 +1,24 @@
+  .navbar {
+    background-color: #fff;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    height: 70px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  
+  .navbar a {
+    color: #1a1a1a;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .navbar a:hover {
+    border-bottom: 2px solid #fff;
+  }
+
 h1 {
     margin-left: 10px;
 }
