@@ -71,14 +71,14 @@ p {
 }
 
 .container {
+  width: 90%;
   max-width: 700px;
   max-height: 60vh;
   margin: 40px auto;
   padding: 30px;
   overflow-y: auto;
   background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #888;
+  border: #888 solid 10px;
 }
 
 .container p {
