@@ -1,73 +1,73 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
   }
   
-  .navbar {
-    background-color: #fff;
-    color: #111;
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-    height: 20px;
-    margin: 0 auto;
-    align-items: center;
-    border-bottom: #888 hidden 1px;
-    box-shadow: 0px 0px 5px 0px #888;
-  }
-  
-  .navbar a {
-    color: #111;
-    text-decoration: none;
-    padding: 10px;
-  }
+.navbar {
+  background-color: #fff;
+  color: #111;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  height: 20px;
+  margin: 0 auto;
+  align-items: center;
+  border-bottom: #888 hidden 1px;
+  box-shadow: 0px 0px 5px 0px #888;
+}
 
-  .subnav:hover {
-    border-bottom: 2px solid #111;
-  }
-  
-  .subnav-content {
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    min-width: 160px;
-    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.2);
-    margin: 20px 0px;
-    z-index: 1;
-  }
+.navbar a {
+  color: #111;
+  text-decoration: none;
+  padding: 10px;
+}
 
-  .dropdown {
-    float: left;
-    overflow: hidden;
-    padding: 20px 0px;
-  }
+.subnav:hover {
+  border-bottom: 2px solid #111;
+}
 
-  .dropdown:hover .subnav-content {
-    display: block;
-  }
+.subnav-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.2);
+  margin: 20px 0px;
+  z-index: 1;
+}
 
-  .subnav-content a {
-      float: none;
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-      text-align: left;
-  }
+.dropdown {
+  float: left;
+  overflow: hidden;
+  padding: 20px 0px;
+}
 
-  .subnav-content a:hover {
-      background-color: #ddd;
-  }
+.dropdown:hover .subnav-content {
+  display: block;
+}
+
+.subnav-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.subnav-content a:hover {
+  background-color: #ddd;
+}
 
 h1 {
-    text-align: center;
-    margin-top: 40px;
+  text-align: center;
+  margin-top: 40px;
 }
 
 p {
-    text-align: center;
-    margin: 40px auto;
-    max-width: 600px;
+  text-align: center;
+  margin: 40px auto;
+  max-width: 600px;
 }
 
 .container {
