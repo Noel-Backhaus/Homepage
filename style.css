@@ -104,11 +104,11 @@ p {
 
 @media (max-width: 600px) {
   .navbar {
-    width: 98%;
+    width: 100%;
     max-width: 100%;
   }
   .container {
-    width: 98%;
+    width: 100%;
     max-width: 100%;
     padding: 10px 20px;
     margin: 10px 0px;
