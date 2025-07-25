@@ -98,7 +98,7 @@ p {
   }
   .container {
     width: 98%;
-    max-width: 98%%;
+    max-width: 100%;
     padding: 10px 20px;
     margin: 10px 0px;
     box-shadow: none;
