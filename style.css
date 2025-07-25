@@ -14,7 +14,7 @@ body {
   padding: 30px 0px;
   height: 20px;
   width: 100%;
-  margin: 0 auto;
+  margin: 0;
   align-items: center;
   border-bottom: #888 hidden 1px;
   box-shadow: 0px 0px 5px 0px #888;
@@ -65,12 +65,13 @@ body {
 
 h1 {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 p {
   text-align: justify;
   margin: 40px auto;
+  padding: 20px;
   max-width: 600px;
   line-height: 1.6; 
 }
