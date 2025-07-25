@@ -1,4 +1,7 @@
 body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   font-family: Arial, sans-serif;
   margin: 0;
   }
@@ -66,9 +69,10 @@ h1 {
 }
 
 p {
-  text-align: center;
+  text-align: justify;
   margin: 40px auto;
   max-width: 600px;
+  line-height: 1.6; 
 }
 
 .container {
@@ -89,6 +93,13 @@ p {
   max-width: 600px;
   line-height: 1.6; 
   text-indent: 1em;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 20px;
+  padding: 10px 0px;
 }
 
 @media (max-width: 600px) {
@@ -115,4 +126,5 @@ p {
     font-size: 1.3em;
     margin-top: 20px;
   }
+
 }
