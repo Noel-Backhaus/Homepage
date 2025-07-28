@@ -92,20 +92,19 @@ p {
   box-shadow: #888 0px 0px 5px;
 }
 
-/* Word-Export-Styles überschreiben */
-.MsoNormal {
+/* Überschreibt ALLE Inline-Styles für Word-Export-Absätze */
+.container .MsoNormal,
+.WordSection1 .MsoNormal,
+div.WordSection1 p.MsoNormal,
+p.MsoNormal[style] {
   margin: 5px auto !important;
   padding: 0px !important;
   max-width: 600px !important;
   text-align: justify !important;
   text-indent: 1em !important;
-  font-family: Cambria, serif !important;
-  font-size: 1.1em !important;
   line-height: 1.6 !important;
-}
-.WordSection1 {
-  margin: 0 !important;
-  padding: 0 !important;
+  font-size: 1.1em !important;
+  font-family: Cambria, serif !important;
 }
 
 .copyright {
