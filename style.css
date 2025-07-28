@@ -18,7 +18,7 @@ body {
   padding: 30px 0px;
   height: 20px;
   width: 100%;
-  margin: 0;
+  margin: 0px;
   align-items: center;
   border-bottom: #888 hidden 1px;
   box-shadow: 0px 0px 5px 0px #888;
@@ -92,13 +92,20 @@ p {
   box-shadow: #888 0px 0px 5px;
 }
 
-.container p {
-  text-align: justify;
-  margin: 5px auto;
-  padding: 0px;
-  max-width: 600px;
-  line-height: 1.6; 
-  text-indent: 1em;
+/* Word-Export-Styles überschreiben */
+.MsoNormal {
+  margin: 5px auto !important;
+  padding: 0px !important;
+  max-width: 600px !important;
+  text-align: justify !important;
+  text-indent: 1em !important;
+  font-family: Cambria, serif !important;
+  font-size: 1.1em !important;
+  line-height: 1.6 !important;
+}
+.WordSection1 {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .copyright {
@@ -122,8 +129,7 @@ p {
     border-radius: 0;
   }
   .container p {
-    margin: 10px;
-    padding: 0px 10px;
+    margin: 10px 0px;
     max-width: 100%;
     font-size: 1em;
     text-indent: 1em;
