@@ -105,6 +105,7 @@ p.MsoNormal[style] {
   line-height: 1.6 !important;
   font-size: 1.1em !important;
   font-family: Cambria, serif !important;
+  hyphens: auto !important;
 }
 
 .copyright {
