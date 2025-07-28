@@ -122,7 +122,7 @@ p.MsoNormal[style] {
   .container {
     width: 90%;
     max-width: 100%;
-    padding: 10px 0px;
+    padding: 10px 5px;
     margin: 10px auto;
     box-shadow: none;
     border-radius: 0;
