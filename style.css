@@ -122,7 +122,7 @@ p.MsoNormal[style] {
   .container {
     width: 90%;
     max-width: 100%;
-    padding: 10px 5px;
+    padding: 10px;
     margin: 10px auto;
     box-shadow: none;
     border-radius: 0;
@@ -132,7 +132,7 @@ p.MsoNormal[style] {
   div.WordSection1 p.MsoNormal,
   p.MsoNormal[style] {
     margin: 10px 0px !important;
-    padding: 5px !important;
+    padding: 0px !important;
     text-indent: 1em !important;
     font-size: 1em !important;
     line-height: 1.5 !important;
