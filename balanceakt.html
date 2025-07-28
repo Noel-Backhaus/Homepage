@@ -39,13 +39,18 @@
     </div> 
     
     <h1>Balanceakt</h1>
-    
+
     <div class="container"></div>
     
     <script>
-        fetch('balanceakt.txt')
-          .then(r => r.text())
-          .then(text => document.getElementById('container').innerText = text);
+        fetch('balanceakt-story.htm')
+          .then(response => response.text())
+          .then(html => {
+            document.getElementById('container').innerHTML = html;
+          })
+          .catch(() => {
+            document.getElementById('container').innerText = "Fehler beim Laden der Geschichte.";
+          });
     </script>
     
     <footer class="copyright">2025 Noel Backhaus - Alle Rechte vorbehalten</footer>
