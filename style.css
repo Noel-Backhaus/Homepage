@@ -127,12 +127,15 @@ p.MsoNormal[style] {
     box-shadow: none;
     border-radius: 0;
   }
-  .container p {
-    margin: 10px 0px;
-    max-width: 100%;
-    font-size: 1em;
-    text-indent: 1em;
-    line-height: 1.5;
+  .container .MsoNormal,
+  .WordSection1 .MsoNormal,
+  div.WordSection1 p.MsoNormal,
+  p.MsoNormal[style] {
+    margin: 10px 0px !important;
+    padding: 5px !important;
+    text-indent: 1em !important;
+    font-size: 1em !important;
+    line-height: 1.5 !important;
   }
   h1 {
     font-size: 1.3em;
