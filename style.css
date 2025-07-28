@@ -152,6 +152,10 @@ p.MsoNormal[style] {
     -moz-hyphens: auto !important;
     word-break: break-word !important;
   }
+  .copyright {
+    font-size: 0.8em;
+    padding: 5px 0px;
+  }
   h1 {
     font-size: 1.3em;
     margin-top: 20px;
