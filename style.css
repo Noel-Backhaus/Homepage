@@ -69,13 +69,13 @@ body {
 
 h1 {
   text-align: center;
-  margin-top: 60px;
+  margin: 50px 0px 30px;
 }
 
 p {
   text-align: justify;
-  margin: 0px 40px;
-  padding: 0px 30px;
+  margin: auto;
+  padding: 0;
   max-width: 600px;
   line-height: 1.6; 
 }
