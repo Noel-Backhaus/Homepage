@@ -115,11 +115,6 @@ p.MsoNormal[style] {
   padding: 10px 0px;
 }
 
-/* Silbentrennung für Fließtext */
-p, span, div {
-  hyphens: auto;
-}
-
 @media (max-width: 600px) {
   .navbar {
     width: 100%;
@@ -147,5 +142,8 @@ p, span, div {
     font-size: 1.3em;
     margin-top: 20px;
   }
-
+  /* Silbentrennung für Fließtext */
+  p, span, div {
+    hyphens: auto;
+  }
 }
