@@ -137,11 +137,20 @@ p.MsoNormal[style] {
     text-indent: 1em !important;
     font-size: 1em !important;
     line-height: 1.5 !important;
+  }
+  .container,
+  .container p,
+  .container span,
+  .container div,
+  .container .MsoNormal,
+  .WordSection1 .MsoNormal,
+  div.WordSection1 p.MsoNormal,
+  p.MsoNormal[style] {
     hyphens: auto !important;
     -webkit-hyphens: auto !important;
     -ms-hyphens: auto !important;
     -moz-hyphens: auto !important;
-    word-break: break-word;
+    word-break: break-word !important;
   }
   h1 {
     font-size: 1.3em;
