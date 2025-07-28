@@ -40,16 +40,16 @@
     
     <h1>Balanceakt</h1>
 
-    <div class="container"></div>
+    <div class="container" id="story-container"></div>
     
     <script>
         fetch('balanceakt-story.htm')
           .then(response => response.text())
           .then(html => {
-            document.getElementById('container').innerHTML = html;
+            document.getElementById('story-container').innerHTML = html;
           })
           .catch(() => {
-            document.getElementById('container').innerHTML = "Fehler beim Laden der Geschichte.";
+            document.getElementById('story-container').innerText = "Fehler beim Laden der Geschichte.";
           });
     </script>
     
