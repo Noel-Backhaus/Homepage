@@ -74,8 +74,8 @@ h1 {
 
 p {
   text-align: justify;
-  margin: 20px auto;
-  padding: 10px;
+  margin: 0px 40px;
+  padding: 0px 30px;
   max-width: 600px;
   line-height: 1.6; 
 }
