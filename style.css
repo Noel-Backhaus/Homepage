@@ -137,6 +137,11 @@ p.MsoNormal[style] {
     text-indent: 1em !important;
     font-size: 1em !important;
     line-height: 1.5 !important;
+    hyphens: auto !important;
+    -webkit-hyphens: auto !important;
+    -ms-hyphens: auto !important;
+    -moz-hyphens: auto !important;
+    word-break: break-word;
   }
   h1 {
     font-size: 1.3em;
