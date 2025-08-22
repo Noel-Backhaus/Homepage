@@ -69,7 +69,7 @@ body {
 
 h1 {
   text-align: center;
-  margin: 50px 0px 30px;
+  margin: 50px 0px;
 }
 
 p {
@@ -90,6 +90,17 @@ p {
   background: #fff;
   border: #888 solid 3px;
   box-shadow: #888 0px 0px 5px;
+}
+
+img {
+  height: 500px;
+  width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.description {
+  padding: 10px;
 }
 
 /* Überschreibt ALLE Inline-Styles für Word-Export-Absätze */
@@ -132,11 +143,11 @@ p.MsoNormal[style] {
   .WordSection1 .MsoNormal,
   div.WordSection1 p.MsoNormal,
   p.MsoNormal[style] {
-    margin: 10px 0px !important;
-    padding: 0px !important;
-    text-indent: 1em !important;
-    font-size: 1em !important;
-    line-height: 1.5 !important;
+  margin: 10px 0px !important;
+  padding: 0px !important;
+  text-indent: 1em !important;
+  font-size: 1em !important;
+  line-height: 1.5 !important;
   }
   .container,
   .container p,
