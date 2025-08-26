@@ -175,4 +175,8 @@ p.MsoNormal[style] {
   p, span, div {
     hyphens: auto;
   }
+  p {
+    max-width: 90%;
+  }
 }
+
