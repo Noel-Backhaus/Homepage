@@ -1,3 +1,3 @@
-# Geschichten
+# Homepage
 
-https://noel-backhaus.github.io/Geschichten/
+https://noel-backhaus.github.io/Homepage/
