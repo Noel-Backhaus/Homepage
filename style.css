@@ -81,6 +81,15 @@ p {
   line-height: 1.6; 
 }
 
+a {
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
 .copyright {
   text-align: center;
   margin-top: auto;
@@ -127,6 +136,11 @@ img {
 
 .description {
   padding: 10px;
+}
+
+/* Optische Täuschungen */
+#text {
+  margin: 0px auto 50px auto;
 }
 
 /* Handy */
@@ -192,4 +206,3 @@ img {
     word-break: break-word !important;
   }  
 }
-
