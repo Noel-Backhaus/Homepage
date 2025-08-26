@@ -1,3 +1,4 @@
+/* Alle Subpages */
 * {
   box-sizing: border-box;
 }
@@ -9,7 +10,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   }
-  
+
 .navbar {
   background-color: #fff;
   color: #111;
@@ -80,6 +81,14 @@ p {
   line-height: 1.6; 
 }
 
+.copyright {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 20px;
+  padding: 10px 0px;
+}
+
+/* Balanceakt */
 .container {
   width: 90%;
   max-width: 700px;
@@ -90,17 +99,6 @@ p {
   background: #fff;
   border: #888 solid 3px;
   box-shadow: #888 0px 0px 5px;
-}
-
-img {
-  height: 500px;
-  width: 350px;
-  display: block;
-  margin: auto;
-}
-
-.description {
-  padding: 10px;
 }
 
 /* Überschreibt ALLE Inline-Styles für Word-Export-Absätze */
@@ -119,18 +117,46 @@ p.MsoNormal[style] {
   hyphens: auto !important;
 }
 
-.copyright {
-  text-align: center;
-  margin-top: auto;
-  margin-bottom: 20px;
-  padding: 10px 0px;
+/* Schweinegeschichte */
+img {
+  height: 500px;
+  width: 350px;
+  display: block;
+  margin: auto;
 }
 
+.description {
+  padding: 10px;
+}
+
+/* Handy */
 @media (max-width: 600px) {
+  /* Alle Subpages */
   .navbar {
     width: 100%;
     max-width: 100%;
   }
+
+  h1 {
+    font-size: 1.3em;
+    margin-top: 20px;
+  }
+
+  p {
+    max-width: 90%;
+  }
+
+  /* Silbentrennung für Fließtext */
+  p, span, div {
+    hyphens: auto;
+  }
+  
+  .copyright {
+    font-size: 0.8em;
+    padding: 5px 0px;
+  }
+
+  /* Balanceakt */
   .container {
     width: 90%;
     max-width: 100%;
@@ -139,6 +165,7 @@ p.MsoNormal[style] {
     box-shadow: none;
     border-radius: 0;
   }
+
   .container .MsoNormal,
   .WordSection1 .MsoNormal,
   div.WordSection1 p.MsoNormal,
@@ -149,6 +176,7 @@ p.MsoNormal[style] {
   font-size: 1em !important;
   line-height: 1.5 !important;
   }
+
   .container,
   .container p,
   .container span,
@@ -162,21 +190,5 @@ p.MsoNormal[style] {
     -ms-hyphens: auto !important;
     -moz-hyphens: auto !important;
     word-break: break-word !important;
-  }
-  .copyright {
-    font-size: 0.8em;
-    padding: 5px 0px;
-  }
-  h1 {
-    font-size: 1.3em;
-    margin-top: 20px;
-  }
-  /* Silbentrennung für Fließtext */
-  p, span, div {
-    hyphens: auto;
-  }
-  p {
-    max-width: 90%;
-  }
+  }  
 }
-
