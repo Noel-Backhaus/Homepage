@@ -73,6 +73,11 @@ h1 {
   margin: 50px 0px;
 }
 
+h2 {
+  text-align: center;
+  margin: 0px;
+}
+
 p {
   text-align: justify;
   margin: auto;
